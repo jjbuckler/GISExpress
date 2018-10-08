@@ -1,0 +1,25 @@
+{
+  "name": "gisexpress",
+  "version": "1.0.0",
+  "description": "An app to serve out ArcGIS Rest Services using Node and Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjbuckler/GISExpress.git"
+  },
+  "author": "John Buckler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjbuckler/GISExpress/issues"
+  },
+  "homepage": "https://github.com/jjbuckler/GISExpress#readme",
+  "dependencies": {
+    "@esri/arcgis-rest-request": "^1.12.0",
+    "express": "^4.16.3",
+    "isomorphic-fetch": "^2.2.1",
+    "isomorphic-form-data": "^2.0.0"
+  }
+}
